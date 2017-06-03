@@ -6,15 +6,37 @@
   background-repeat: no-repeat;
   background-image: url("../img/breakfast.jpg");
   height: 210px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+}
+#seyme {
+  text-align: center;
+}
+#campo {
+  height: 105px;
+  padding-top: 40px;
+}
+#kampo {
+  background-color: red;
+  height: 105px;
+  color: white;
+  padding-top: 40px;
 }
 #cphryn {background-repeat: no-repeat;
   background-image: url("../img/lunch.jpg");
-  height: 210px
+  height: 210px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
 }
 #kwata {
   background-repeat: no-repeat;
   background-image: url("../img/dinner.jpg");
   height: 210px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
 }
 #mukhe {
   text-align: center;
@@ -26,6 +48,10 @@
   text-align: center;
   padding-top: 50px;
   background-image: url("../img/foodsBg.jpg");
+  color: white;
+}
+#saya {
+  color: red;
 }
 #fifthrow {
   text-align: center;
