@@ -32,4 +32,12 @@
 }
 #sixthrow {
   background-image: url("../img/subscribe.jpg");
+  color: white;
+  text-align: center;
+  padding: 100px
+}
+#sevethrow {
+  background-color: red;
+  color: white;
+  text-align: center;
 }
