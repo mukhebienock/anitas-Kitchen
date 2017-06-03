@@ -1,0 +1,21 @@
+.col-md-12 {
+  background-image: url("../img/landing.jpg");
+  text-align: center;
+}
+#justy {
+  background-repeat: no-repeat;
+  background-image: url("../img/breakfast.jpg");
+  height: 210px;
+}
+#cphryn {background-repeat: no-repeat;
+  background-image: url("../img/lunch.jpg");
+  height: 210px
+}
+#kwata {
+  background-repeat: no-repeat;
+  background-image: url("../img/dinner.jpg");
+  height: 210px;
+}
+#mukhe {
+  text-align: center;
+}
