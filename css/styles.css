@@ -2,6 +2,12 @@
   background-image: url("../img/landing.jpg");
   text-align: center;
 }
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: green;
+    margin: 6px 0;
+}
 #justy {
   background-repeat: no-repeat;
   background-image: url("../img/breakfast.jpg");
