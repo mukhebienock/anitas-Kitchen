@@ -1,11 +1,12 @@
 .col-md-12 {
   background-image: url("../img/landing.jpg");
   text-align: center;
+  color: white;
 }
 .bar {
-    width: 35px;
-    height: 5px;
-    background-color: green;
+    width: 45px;
+    height: 3px;
+    background-color: rgb(255,255,255);
     margin: 6px 0;
 }
 #justy {
@@ -72,4 +73,11 @@
   background-color: red;
   color: white;
   text-align: center;
+}
+#sawaq {
+  background-color: grey;
+  text-align: left;
+}
+#sawas {
+  background-color: red;
 }
