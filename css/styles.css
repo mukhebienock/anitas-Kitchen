@@ -59,9 +59,16 @@
 }
 #saya {
   color: red;
+  background-color: grey;
+  text-align: center;
 }
 #fifthrow {
   text-align: center;
+  margin: 10px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: grey;
+  border-style: g;
 }
 #sixthrow {
   background-image: url("../img/subscribe.jpg");
@@ -80,4 +87,28 @@
 }
 #sawas {
   background-color: red;
+}
+.button {
+  border-radius: 10px;
+  background-color: white;
+  border-color: red;
+  text-align: center;
+  color: red;
+  padding: 15px;
+  transition: all 0.5s;
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10px;
 }
