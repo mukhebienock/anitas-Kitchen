@@ -9,14 +9,6 @@
     background-color: rgb(255,255,255);
     margin: 6px 0;
 }
-#justy {
-  background-repeat: no-repeat;
-  background-image: url("../img/breakfast.jpg");
-  height: 210px;
-  text-align: center;
-  padding-top: 80px;
-  color: white;
-}
 #seyme {
   text-align: center;
 }
@@ -25,10 +17,21 @@
   padding-top: 40px;
 }
 #kampo {
-  background-color: red;
+  background-color: #F15A29;
   height: 105px;
   color: white;
   padding-top: 40px;
+}
+#justy {
+  background-repeat: no-repeat;
+  background-image: url("../img/breakfast.jpg");
+  height: 210px;
+  text-align: center;
+  padding-top: 80px;
+  color: white;
+}
+#justy:hover{
+  background-color: white;
 }
 #cphryn {background-repeat: no-repeat;
   background-image: url("../img/lunch.jpg");
@@ -37,6 +40,9 @@
   padding-top: 80px;
   color: white;
 }
+#cphryn:hover {
+  background-color: white;
+}
 #kwata {
   background-repeat: no-repeat;
   background-image: url("../img/dinner.jpg");
@@ -44,6 +50,25 @@
   text-align: center;
   padding-top: 80px;
   color: white;
+}
+#kwata:hover {
+    background-color: white;
+}
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
 }
 #mukhe {
   text-align: center;
@@ -58,9 +83,40 @@
   color: white;
 }
 #saya {
-  color: red;
-  background-color: grey;
+  color: #000000;
   text-align: center;
+}
+#ffood:hover {
+  color: red;
+  background-color: white;
+}
+#ffood {
+  background-color: grey;
+  height: 3em;
+}
+#drinks {
+  background-color: grey;
+  height: 3em;
+}
+#drinks:hover {
+  color: red;
+  background-color: white;
+}
+#chiken {
+  background-color: grey;
+  height: 3em;
+}
+#chiken:hover {
+  color: red;
+  background-color: white;
+}
+#rice {
+  background-color: grey;
+  height: 3em;
+}
+#rice:hover {
+  color: red;
+  background-color: white;
 }
 #fifthrow {
   text-align: center;
@@ -76,8 +132,11 @@
   text-align: center;
   padding: 100px
 }
+#result {
+  display: none;
+}
 #sevethrow {
-  background-color: red;
+  background-color: #F15A29;
   color: white;
   text-align: center;
 }
@@ -85,8 +144,9 @@
   background-color: grey;
   text-align: left;
 }
-#sawas {
-  background-color: red;
+#youremail {
+  color: black;
+  text-align: center;
 }
 .button {
   border-radius: 10px;
@@ -111,4 +171,8 @@
 
 .button:hover span {
   padding-right: 10px;
+}
+.siko {
+  width: 100%;
+  font-size: 30px;
 }

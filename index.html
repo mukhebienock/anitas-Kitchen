@@ -39,8 +39,8 @@
       </div>
       <div class="row" id="secondrow">
         <div class="col-md-6" id="simi">
-          <div class="rowC"><img src="img/fastFood1.jpg"></div>
-          <div class="rowD"><img src="img/fastFood2.jpg"></div>
+          <div class="morph pic"><img src="img/fastFood1.jpg"></div>
+          <div class="morph pic"><img src="img/fastFood2.jpg"></div>
         </div>
         <div class="col-md-6" id="mukhe">
           <h1>Fast Food</h1>
@@ -68,19 +68,27 @@
         <div class="col-md-6"><img src="img/drink1.jpg"><img src="img/drink2.jpg"></div>
       </div>
       <div class="row" id="fourthrow">
-        <div class="row">
+        <div class="row" id="saya">
           <div class="col-md-2"></div>
-          <div class="col-md-8"  id="saya">
-            <div class="col-md-2">First Food</div>
-            <div class="col-md-2">Drinks</div>
-            <div class="col-md-2">Chicken</div>
-            <div class="col-md-2">Rice</div>
-          </div>
+          <div class="col-md-2" id="ffood">First Food</div>
+          <div class="col-md-2" id="drinks">Drinks</div>
+          <div class="col-md-2" id="chiken">Chicken</div>
+          <div class="col-md-2" id="rice">Rice</div>
           <div class="col-md-2"></div>
         </div>
         <div class="row">
-          <img src="img/chickenBurger.jpg">Chicken Burger <img src="img/beefBurger.jpg">Beef Burger
-          <img src="img/chickenPizza.jpg">Chicken Pizza.
+          <div class="col-md-4" id="chick">
+            <img src="img/chickenBurger.jpg">
+            <p>Chicken Burger</p>
+          </div>
+          <div class="col-md-4" id="beef">
+            <img src="img/beefBurger.jpg">
+            <p>Beef Burger</p>
+          </div>
+          <div class="col-md-4" id="pizz">
+            <img src="img/chickenPizza.jpg">
+            <p>Chicken Pizza</p>
+          </div>
         </div>
       </div>
       <div class="row" id="fifthrow">
@@ -100,11 +108,19 @@
         </div>
       </div>
       <div class="row" id="sixthrow">
-        <h1>Get our daily food items delivered to your email</h1>
-        <div class="col-md-3"></div>
-        <div class="col-md-4" id="sawaq"><p>Your email</p></div>
-        <div class="col-md-1"></div>
-        <div class="col-md-3" id="sawas"><p>Subscribe</p></div>
+        <form id="subscription">
+          <h1>Get our daily food items delivered to your email</h1>
+          <div class="col-md-3"></div>
+          <div class="col-md-4" id="sawaq">
+            <label for="youremail">Your email</label>
+            <input id="youremail" type="text">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-3" id="sawas"><button type="submit" class="btn btn-danger">subscribe</button></div>
+        <div class="row" id="result">
+          <h2><strong>successfully subscribed!!!</strong></h2>
+        </div>
+        </form>
       </div>
       <div class="row" id="sevethrow">
         <img src="img/logo_white.png"><h1>MENU</h1>
