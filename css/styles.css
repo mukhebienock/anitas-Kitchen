@@ -31,7 +31,7 @@
   color: white;
 }
 #justy:hover{
-  background-color: white;
+  opacity: 0.5;
 }
 #cphryn {background-repeat: no-repeat;
   background-image: url("../img/lunch.jpg");
@@ -41,7 +41,7 @@
   color: white;
 }
 #cphryn:hover {
-  background-color: white;
+  opacity: 0.5;
 }
 #kwata {
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@
   color: white;
 }
 #kwata:hover {
-    background-color: white;
+  opacity: 0.5;
 }
 .morph {
   -webkit-transition: all 0.5s ease;
