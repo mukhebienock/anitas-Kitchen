@@ -12,9 +12,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <div class="bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
+          <a href="Aboutus.html">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </a>
           <img src="img/logoBig.png" alt="a menu photo">
           <p>We Provide The Best Food</p>
           <p>At The Right Price</p>
@@ -37,8 +39,8 @@
       </div>
       <div class="row" id="secondrow">
         <div class="col-md-6" id="simi">
-          <div class="rowC"><img src="img/fastFood1.jpg"></div>
-          <div class="rowD"><img src="img/fastFood2.jpg"></div>
+          <div class="morph"><img src="img/fastFood1.jpg"></div>
+          <div class="morph"><img src="img/fastFood2.jpg"></div>
         </div>
         <div class="col-md-6" id="mukhe">
           <h1>Fast Food</h1>
@@ -65,9 +67,23 @@
       </div>
       <div class="row" id="fourthrow">
         <div class="col-md-2"></div>
-        <div class="col-md-2">Drinks</div>
-        <div class="col-md-2">Chicken</div>
-        <div class="col-md-2">Rice</div>
+        <div class="row">
+          <div class="col-md-2" id="ffood">Fast Food</div>
+          <div class="col-md-2" id="drinks">Drinks</div>
+          <div class="col-md-2" id="chiken">Chicken</div>
+          <div class="col-md-2" id="rice">Rice</div>
+        </div>
+        <div class="row">
+          <div class="col-md-4"><img src="img/chickenBurger.jpg">
+            <p>Chiken Burger</p>
+          </div>
+          <div class="col-md-4"><img src="img/beefBurger.jpg">
+            <p>Beef Burger</p>
+          </div>
+          <div class="rol-md-4"><img src="img/chickenPizza.jpg">
+            <p>Chiken Pizza</p>
+          </div>
+        </div>
         <div class="col-md-2"></div>
       </div>
       <div class="row" id="fifthrow">
@@ -89,8 +105,14 @@
       <div class="row" id="sixthrow">
         <div class="col-md-2"></div>
         <h1>Get our daily food items delivered to your email</h1>
-        <div class="col-md-5"><p>Your email</p></div>
-        <div class="col-md-3"><p>Subscribe</p></div>
+        <form id="subscription">
+          <div class="form-group">
+            <input id="youremail" type="text" placeholder="Your email"><button class="btn btn-dager" type="submit">Subscribe</button>
+          </div>
+        </form>
+        <div id="result">
+          <h2>successfully subscribed!!!</h2>
+        </div>
       </div>
       <div class="row" id="sevethrow">
         <img src="img/logo_white.png"><h1>MENU</h1>

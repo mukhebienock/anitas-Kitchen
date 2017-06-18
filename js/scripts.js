@@ -10,6 +10,6 @@ $(document).ready(function() {
 
 
   var besubscribed = function(youremail) {
-    return false;
+    return true;
   };
 });
